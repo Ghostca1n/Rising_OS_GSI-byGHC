@@ -2,7 +2,7 @@
 
 echo
 echo "--------------------------------------"
-echo "      KLC OS - AOSP 15.0 Buildbot     "
+echo "      Risning OS - AOSP 15.0 Buildbot     "
 echo "              Original by             "
 echo "                ponces                "
 echo "          Slightly Modified           "
@@ -13,13 +13,13 @@ echo
 
 set -e
 
-BL=$PWD/KLC_OS/treble_aosp
+BL=$PWD/rising_OS/treble_aosp
 BD=$HOME/builds
 BV=$1
 
 initRepos() {
     echo "--> Initializing workspace"
-    repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r5 --git-lfs
+    repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs    
     echo
 
     echo "--> Preparing local manifest"
