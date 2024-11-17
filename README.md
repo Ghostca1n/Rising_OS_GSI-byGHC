@@ -1,4 +1,3 @@
-![KLC OS Banner](**https://github.com/user-attachments/assets/eabf88ec-474a-4e63-99cf-20daafc52f77**)
 
 ## Source Code? This GSI based on ponces Android 15 AOSP
 
@@ -17,13 +16,13 @@ Note:
 ### Steps
 
 1. Create a new working directory for your AOSP build and navigate to it: <br />
-`mkdir klc_os; cd klc_os`
+`mkdir rising_os; cd rising_os`
 
 2. Clone this repo: <br />
-`git clone https://github.com/LoggingNewMemory/KLC_OS -b android15.0`
+`git clone https://github.com/Ghostca1n/Rising_OS_GSI -b android15.0`
 
 3. Start the build, Good luck. <br /> 
-`bash KLC_OS/treble_aosp/build.sh`
+`bash rsing_OS/treble_aosp/build.sh`
 
 Thanks to:
 - [ponces](https://github.com/ponces)
